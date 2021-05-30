@@ -1,5 +1,6 @@
-const h2 = document.createElement('h2');
-h2.textContent = "This content added by JavaScript";
+const contact = document.getElementsByTag('span');
+contact.addEventListener("click", function() {
+    alert("test");
+})
 
-//document.querySelector('body').appendChild(h2);
-
+contact()

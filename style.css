@@ -2,19 +2,20 @@
 div#heading {
     background-image: url(images/lake_reflection.jpg) ;
     background-size: cover;
-    height: 500px;
-    padding: 0em;
-    margin-top: 0em;
+    height: 800px;
+    margin-top: -60px;
+    margin-left: -10px;
+    
     
 }
 
 div#heading h1{
     
-    color:rgb(169, 178, 216);
+    color:white;
     text-align: center;
     font-family: "copperplate";
     font-size: 70pt;
-    padding-top: 20%;
+    padding-top: 300pt;
     
     
     
@@ -28,19 +29,38 @@ div#navlinks {
 }
 
 
-
-
 body {
     background: rgb(47, 57, 99);
     margin-top: 0%;
   }
 
 div#about {
+
     text-align: center;
     color: rgb(169, 178, 216);
     font-family: "copperplate";
-    column-count: auto;
+    padding-top: 20%;
+      
+}
+
+div#about h1 {
+    padding-bottom: 10%;
+}
+
+div#about p {
     
+    width: 60%;
+    float: center;
+    text-align: center;
+    padding: 10% 20%;
+    
+
+}
+
+div#about img {
+    width: 300pt;
+    float: center;
+    padding 10% 20%;
     
 }
 
@@ -48,6 +68,7 @@ div#about {
       text-align: center;
     color: rgb(169, 178, 216);
     font-family: "copperplate";
+    padding-top: 30%;
     
   }
 
@@ -55,6 +76,17 @@ div#social {
     text-align: center;
     color: rgb(169, 178, 216);
     font-family: "copperplate";
+    padding-top: 20%;
+    padding-bottom: 20%;
     
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    padding: 1%;
+    font-size: 20pt;
 }
 
