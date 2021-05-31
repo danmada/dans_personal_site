@@ -1,6 +1,7 @@
-const contact = document.getElementsByTag('span');
-contact.addEventListener("click", function() {
-    alert("test");
-})
+const xyz = document.getElementById('selfie');
 
-contact()
+function mouseClick() {
+    alert('This is me!');
+}
+
+xyz.addEventListener('click', mouseClick); 
