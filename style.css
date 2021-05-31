@@ -5,6 +5,7 @@ div#heading {
     height: 800px;
     margin-top: -60px;
     margin-left: -10px; 
+    margin-right: -10px;
     border-style: solid;
     border-bottom: 5px solid;
 }
@@ -35,24 +36,36 @@ div#about {
     text-align: center;
     color: rgb(169, 178, 216);
     font-family: "copperplate";
-    padding-top: 20%;
+    padding-top: 10%;
     
       
 }
 
+div#divself {
+    text-align: center;
+    padding-top: 10%;
+}
+
+img#selfie {
+    
+    color: rgb(169, 178, 216);
+    width: 300pt;
+    float: center;
+    border-style: solid;
+    border: 5px solid
+    
+}
+
+
 div#about h1 {
-    padding-bottom: 10%;
+    padding-top: 10%;
+    padding-bottom: 5%;
     font-size: 40pt;
     text-decoration: overline;
     
 }
 
-div#about img {
-    width: 300pt;
-    float: center;
-    border-style: solid;
-    border: 5px solid
-}
+
 div#about p {
     
     width: 60%;
@@ -95,7 +108,7 @@ div#social {
     color: rgb(169, 178, 216);
     font-family: "copperplate";
     padding-top: 20%;
-    padding-bottom: 20%;
+    padding-bottom: 10%;
     
 }
 
@@ -106,7 +119,7 @@ ul {
 
 li {
     padding: 1%;
-    font-size: 15pt; 
+    font-size: 13pt; 
 }
 
 ul a {
